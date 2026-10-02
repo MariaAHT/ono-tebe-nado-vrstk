@@ -123,7 +123,8 @@
 }
 
 .lots {
-  padding: 179px 24px;
+  padding: 155px 24px;
+  margin: 25px 24px 15px 7px;
 }
 
 .lots__heading {
@@ -138,14 +139,14 @@
 .lots__card-list {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
+  gap: 27px;
   list-style: none;
   margin-bottom: 30px;
   
 }
 
 .lots__card-list-item {
-  flex: 1 0 0;
+  flex: 2 0 0;
 }
 
 .card-link {
