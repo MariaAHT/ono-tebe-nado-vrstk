@@ -1,4 +1,9 @@
 .header {
+  position: absolute;
+  width: 1100px;
+  height: 293px;
+  left: 0px;
+  top: 0px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -54,7 +59,10 @@
 
 
 .cover {
-  position: relative;
+  position: absolute;
+  height: 757px;
+  left: 0px;
+  top: 293px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   color: white;
@@ -101,8 +109,10 @@
 }
 
 .text_right {
+  line-height: 115%;
   text-align: right;
-  line-height: 120px;  
+  letter-spacing: 0.3em;
+  text-transform: uppercase;  
 }
 
 .text_cover { 
