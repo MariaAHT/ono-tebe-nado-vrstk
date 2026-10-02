@@ -3,9 +3,9 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding-top: 92px;
-  padding-left: 47.8px;
+  padding-left: 24px;
   padding-bottom: 96px;
-  padding-right: 47.4px;
+  padding-right: 24px;
 }
 
 .header_menu {
@@ -130,6 +130,7 @@
   font-weight: 400;
   line-height: 28px;
   word-spacing: 18px;
+  
 }
 
 .button {
