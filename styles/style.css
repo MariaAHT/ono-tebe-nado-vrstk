@@ -52,7 +52,6 @@
   font-style: normal;  
 }
 
-
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -146,7 +145,7 @@
   text-align: center;
 }
 
-.title_lots {
+/* .title_lots {
   padding-top: 179px;
   padding-bottom: 26px;
   padding-left: 64px;
@@ -333,4 +332,4 @@
 .footer_images {
   display: flex;
   gap: 48px;
-}
+} */
