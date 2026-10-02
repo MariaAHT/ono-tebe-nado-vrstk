@@ -1,9 +1,4 @@
 .header {
-  position: absolute;
-  width: 1100px;
-  height: 293px;
-  left: 0px;
-  top: 0px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -59,10 +54,7 @@
 
 
 .cover {
-  position: absolute;
-  height: 757px;
-  left: 0px;
-  top: 293px;
+  position: relative;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   color: white;
@@ -109,10 +101,8 @@
 }
 
 .text_right {
-  line-height: 115%;
   text-align: right;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;  
+  line-height: 120px;  
 }
 
 .text_cover { 
@@ -212,6 +202,10 @@
 }
 
 .card_title {
+  width: 334px;
+  height: 596px;
+  left: 0px;
+  top: 0px;
   color: white;
   font-size: 22px;
   font-weight: 700;
