@@ -270,12 +270,13 @@
   flex-direction: column;
   flex: 0 0 auto;
   width: auto;
+  margin-top: 10px;
 }
 
 .footer__menu-list {
   list-style: none;
   text-align: center;
-  margin-top: -4px;
+  margin-top: -13px;
 }
 
 .footer__menu-link_active {
