@@ -278,11 +278,7 @@
 .footer__menu-list {
   list-style: none;
   text-align: center;
-<<<<<<< HEAD
-  margin-top: -4px;
-=======
   margin-top: -13px;
->>>>>>> 4e9145df16e258cd7ab026f00801c172177f044a
 }
 
 .footer__menu-link_active {
