@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   gap: 32px;
-  padding-top: 24px;
+  padding-top: 25px;
   padding-right: 5px;
 }
 
@@ -107,7 +107,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 93px;
+  padding-top: 95px;
 }
 
 .cover__description-text {
@@ -161,6 +161,9 @@
 
 .lots__card-list-item {
   flex: 1 0 0;
+  min-height: 596px;
+  width: 334px;
+  gap: 25px;
 }
 
 .card-link {
@@ -170,7 +173,7 @@
 }
 
 .card {
-  height: 600px;
+  height: 100%;
   color: #fff;
   background-repeat: no-repeat;
   background-position: center;
@@ -196,6 +199,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
+  padding-top: 35px;
 }
 
 .card_type_film {
@@ -217,33 +221,38 @@
   text-decoration: underline;
   text-transform: lowercase;
   padding-left: 3.9%;
+
 }
 
 .about {
   display: flex;
   gap: 25px;
-  padding: 0 24px 181px 24px;
-  margin-top: -26px;
-  
+  padding: 0 24px 165px 20px; 
 }
 
 .about__logo {
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
   background-color: #000000;
-  margin: 0 50px 10px;
-  padding: 63px 46px;
+  margin: 0px 48px 50px 53px;
   border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  display: flex;
 }
 
 .about__logo-image {
   width: 148px;
+  height: 114px;
 }
 
 .about__title {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 100px;
-  margin-left: -5px;
+  margin-top: 74px;
+  
 }
 
 .about__text {
@@ -253,9 +262,9 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.04px;
   margin-top: 100px;
-  margin-left: -5px;
+  
 }
 
 .footer {
@@ -265,6 +274,11 @@
   font-size: 18px;
   line-height: 135%;
   padding: 0 50px 90px;
+}
+
+.footer__address {
+  margin-top: 15px;
+  margin-left: 2px;
 }
 
 .footer__menu {
@@ -278,7 +292,8 @@
 .footer__menu-list {
   list-style: none;
   text-align: center;
-  margin-top: -13px;
+  padding-top: 4px;
+  line-height: 22px;
 }
 
 .footer__menu-link_active {
@@ -297,4 +312,5 @@
   width: 48px;
   height: 48px;
   margin-left: 3px;
+  margin-top: 13px;
 }
